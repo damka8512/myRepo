@@ -1,0 +1,53 @@
+body {
+    position: relative;
+    font-family: Consolas, Curier, monospace;
+    background-image: url(assets/topography.png);
+    font-size: 24px;
+    line-height: 1.5em;
+    margin: 0;
+}
+main {
+    padding: 10% 10%;
+    margin: auto;
+}
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+    padding-top: 40px;
+}
+header {
+    position: sticky;
+    top:0;
+    background-color: #333;
+    display: flex;
+    padding: 2% 10%;
+}
+.navbar {
+    position: absolute;
+    right: 10%;
+}
+.navbar a, #first-section h3 {
+    color: #ff0099; 
+}
+
+article p{
+    margin: 4vw 0;
+    text-align: center;
+    font-weight: 900;
+}
+#second-section h2 {
+    text-align: center;
+}
+#first-section::before,#second-section::before {
+        content: '';
+        display: block;
+        height:      150px;
+        margin-top: -150px;
+        visibility: hidden;
+}
